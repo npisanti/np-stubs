@@ -2,6 +2,8 @@
 #pragma once 
 
 #include "ofMain.h"
+#include "ofxLaserManager.h"
+#include "ofxLaserDacEtherdream.h"
 #include "Laserline.h"
 
 // ------- shared resources between ofApp and scenes ----------------
@@ -11,6 +13,9 @@
 extern std::vector<Laserline> lines;
 extern std::vector<ofPolyline> mapping;
 
-namespace resources{
+extern ofxLaser::Manager laser;
 
+namespace resources{
+    extern int laserWidth;
+    extern int laserHeight;
 }
