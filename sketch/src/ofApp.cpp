@@ -36,18 +36,17 @@ void keyPressed(int key){
     }
 }
 
-
 //--------------------------------------------------------------
 void mousePressed(int x, int y, int button){}
 void mouseDragged(int x, int y, int button){}
 void mouseReleased(int x, int y, int button){}
 
-void windowResized(int w, int h){}
-
+//--------------------------------------------------------------
 void keyReleased(int key){}
 void mouseMoved(int x, int y){}
 void mouseEntered(int x, int y){}
 void mouseExited(int x, int y){}
+void windowResized(int w, int h){}
 void gotMessage(ofMessage msg){}
 void dragEvent(ofDragInfo dragInfo){ }
 //--------------------------------------------------------------
