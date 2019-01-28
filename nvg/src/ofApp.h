@@ -22,4 +22,6 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
         
         ofxNanoVG::Canvas nvg;
+        
+        bool clear;
 };
