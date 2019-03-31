@@ -1,2 +1,0 @@
-ofxGui
-np-extra
