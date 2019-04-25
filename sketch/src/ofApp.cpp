@@ -1,6 +1,9 @@
 
 #include "ofMain.h"
 
+#include "ofxGui.h"
+#include "np-analyzer.h"
+
 class ofApp : public ofBaseApp{
     
 // ---------- variables ----------------------------------------
@@ -8,7 +11,7 @@ class ofApp : public ofBaseApp{
 ofxPanel gui;
 bool bDrawGui = true;
 
-pdsp::Engine engine;
+np::Analyzer analyzer;
 
 //--------------------------------------------------------------
 void setup(){
@@ -16,19 +19,14 @@ void setup(){
 
 
 
+    // -------------- GUI ------------    
+    analyzer.defaults(); // also starts pdsp
 
-
-    // -------------- GUI ------------
     gui.setup( "gui", "settings.xml", 20, 20 );
-
+    gui.add( analyzer.parameters );
     gui.loadFromFile( "settings.xml" );
     gui.minimizeAll();
-    
-    
-    // ----------- ENGINE ------------- 
-    engine.listDevices();
-    engine.setDeviceID( 0 ); 
-    //engine.setup( 44100, 512, 3); 
+
 }
 
 //--------------------------------------------------------------

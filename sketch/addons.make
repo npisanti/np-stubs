@@ -2,8 +2,10 @@ ofxGui
 ofxMidi
 ofxSIMDFloats
 ofxAudioFile
+ofxOsc
 ofxPDSP
 np-extra
 ofxWatchFile
 np-patches
+np-analyzer
 ofxDotFrag

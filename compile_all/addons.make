@@ -6,6 +6,7 @@ ofxPDSP
 np-extra
 ofxWatchFile
 np-patches
+np-analyzer
 ofxDotFrag
 ofxOpenCv
 ofxCv
