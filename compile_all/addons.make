@@ -1,6 +1,5 @@
 ofxGui
 ofxMidi
-ofxSIMDFloats
 ofxAudioFile
 ofxPDSP
 np-extra
