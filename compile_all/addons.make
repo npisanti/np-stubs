@@ -7,11 +7,10 @@ ofxWatchFile
 np-patches
 np-analyzer
 ofxDotFrag
+np-pixelscript
 ofxOpenCv
 ofxCv
 ofxKinect
-ofxTextureAtlas
-ofxRectangleUtils
 ofxRapidLib
 ofxLiquidFun
 ofxOsc
