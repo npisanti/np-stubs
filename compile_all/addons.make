@@ -12,6 +12,6 @@ ofxOpenCv
 ofxCv
 ofxKinect
 ofxRapidLib
-ofxLiquidFun
+ofxBox2d
 ofxOsc
 ofxClayblocks
