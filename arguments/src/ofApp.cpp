@@ -6,12 +6,16 @@ void ofApp::setup(){
     std::cout<<uno<<"\n";
     std::cout<<due<<"\n";
     std::cout<<tre<<"\n";
+    std::cout<<"--- press Ctrl+C to quit\n";
 
+    ofSetFrameRate( 60 ); // without this loop is executed as soon as possible 
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-
+    if ( ofGetFrameNum()%120 == 0 ){
+        std::cout<<"loop\n";
+    }
 }
 
 //--------------------------------------------------------------

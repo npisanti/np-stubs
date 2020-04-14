@@ -1,10 +1,11 @@
 #include "ofMain.h"
 #include "ofApp.h"
+#include "ofAppNoWindow.h"  
 
-//========================================================================
+//====================================================================
 int main( int argc, char *argv[] ){
 
-	ofSetupOpenGL(1024,768, OF_WINDOW);			// <-------- setup the GL context
+    ofAppNoWindow window;  
     
     ofApp *app = new ofApp();
     
@@ -23,5 +24,7 @@ int main( int argc, char *argv[] ){
         }   
     }
 
+    ofSetupOpenGL(&window, 256,256,OF_WINDOW);  
 	ofRunApp( app );
+
 }
